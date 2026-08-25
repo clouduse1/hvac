@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<title>Manual D Duct Design Basics for Residential Cooling</title>
+<meta name="title" content="Manual D Duct Design Basics for Residential Cooling">
+<meta name="dc.title" content="Manual D Duct Design Basics for Residential Cooling">
+<meta name="description" content="Manual D duct design in plain terms: how airflow, friction rate, and static pressure decide whether the right equipment can deliver its capacity.">
+<meta name="keywords" content="Manual D Duct Design Basics for Residential Cooling">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><link rel="canonical" href="manual-d-duct-design-basics-for-residential-cooling.html">
+<link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Kumbh+Sans:100,200,300,400,500,600,700,800,900&amp;display=swap">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="img/" alt="Manual D Duct Design Basics for Residential Cooling" />
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+<style type="text/css">
+ 	.x67113b7e61294451d5318185b3d7feed{
+font-size: 19.8px;
+font-weight: bold;
+}
+.d7de17b32a174136dedff9b9c3bec22cd{
+text-decoration: underline!important;color:#ff9228!important
+}
+.x8f7528cd85ed9fb2e1cdd2e652b5ff44 a,.ydd2468b2f341ef57f93c741e9e262e37 a{
+color:#060606!important;
+text-decoration: underline !important;
+}
+.z4abec9e28b75f8b3d197bbc39c56eb24{
+transition: all 0.3s;
+border-radius: 30px;
+}
+.t52edf27f698ff26b2a4a1ffaa9fe2d52{
+font-size:45px!important;
+}
+.x3a8f18fb7625e871e1a87aa8fb97d644{
+position: relative;
+min-height: 600px;
+}
+.af4d84db2775806ccfaeee4e65265828c .row-item.f99cd1c350a4bcdfc77a2e4df39eb17b0{
+background: #f5e2e0;
+}
+.af4d84db2775806ccfaeee4e65265828c .row-item.a53c3d6ca562bdf12bc867c2045244d17{
+background: #d0edf3;
+}
+footer a{
+color:#ffffff;
+text-decoration: underline;
+}
+.z6af45a1a9d4ea3c15914a0a1bb2ec904 a{
+color:#ff871d!important;
+}
+.nav-item{
+padding-left:7.6px;
+padding-right:8.5px;
+padding-top:5.3px;
+padding-bottom:4.8px;
+}
+.u22db47ee1a9839f49b0d17c459698467 i{
+border-radius: 50%;
+width: 37.1px;
+line-height: 35px;
+text-align: center;
+height: 36.9px;
+}
+.e88660120f4c9e9ece6f8574f5977f11e{
+color: #9e9e9e;
+font-size: 20.5px;
+margin-bottom: 20.7px;
+}
+.ub4b77d503abd32a150e97a50a7591695 .card .card-header .collapsed span{
+-webkit-transform: rotate(-180deg);
+transform: rotate(-180deg);
+}
+.af4d84db2775806ccfaeee4e65265828c .z6af45a1a9d4ea3c15914a0a1bb2ec904 *{
+color:#000000;
+}
+.af4d84db2775806ccfaeee4e65265828c .z6af45a1a9d4ea3c15914a0a1bb2ec904{
+background:#c1bebe!important;
+}
+.ub4b77d503abd32a150e97a50a7591695 .card .card-body{
+padding: 1.75rem 2rem;
+}
+a:hover{
+color:#ffffff;background:#ffc658!important;
+}
+.f99cd1c350a4bcdfc77a2e4df39eb17b0 a{
+color:#ff8218!important;
+}
+.c490d492d177766393dd8d8b68b7df1ec a{
+color:#ff861c!important;
+}
+.ydd2468b2f341ef57f93c741e9e262e37{
+background:#ffffff;
+}
+.af4d84db2775806ccfaeee4e65265828c .card-img{
+margin-bottom: 1.7rem;
+text-align: left;
+}
+*{
+font-family: 'Kumbh Sans', sans-serif;
+}
+.xc79bd09d3696f8df08a9dabe7f321841{
+max-height: 300px;
+overflow-y: auto;
+}
+.u22db47ee1a9839f49b0d17c459698467 i:hover{
+background: white;
+color: #ffffff;!important;
+line-height: 35px;
+border-radius: 50%;
+width: 37.4px;
+text-align: center;
+height: 36.6px;
+}
+img{
+border-radius:20px
+}
+.d59fe6d0b53466155a5fac93b145b4dc5{
+font-size: 14.1px;
+}
+footer *{
+font-size:16px !important;
+}
+.ub4b77d503abd32a150e97a50a7591695 .card:last-child{
+margin-bottom: 0;
+}
+.ze4a0623c761c50d46cf1b8a3912ba9a8{
+background-color:#ffffff!important;
+border-color:#ffffff!important;
+color:#000000!important;
+}
+.wc2e44252ca9febd78d125b5c14b368bb{
+position: relative;
+z-index: 1;
+}
+.e782dcd8ad8472a5c5c4f0baf5675b677{
+width: 100%;
+max-height: 720px;
+object-fit: cover;
+object-position: center;
+display: block;
+max-height: 100%;
+max-width: 100%;
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+}
+.a919f79a4582003444fe106ed977aa13b{
+background: rgba(0, 0, 0, 0.6);
+text-align: center;
+}
+.af4d84db2775806ccfaeee4e65265828c .yc2f1f6d1ee04dbcfedc6630cfc08b34d{
+margin-bottom: 1.5rem;
+}
+.td122135ab0dce2ccb91e7a0ad7b98055:hover,.w1c1d06edb57fea69275148f357ba44de:hover{
+background-size: 100% 100% !important;
+background: #ffc658!important;
+background-repeat: no-repeat !important;
+background-position: 0 90% !important;
+transition: background-size 0.2s ease-in !important;
+}
+.ub4b77d503abd32a150e97a50a7591695 .card .card-header .collapsed{
+color: #1b1e6b;
+}
+.af4d84db2775806ccfaeee4e65265828c .row-item.c490d492d177766393dd8d8b68b7df1ec{
+background: #eeece8;
+}
+.a144b46958158c41b453e3987e58dbce7{
+font-size:16px!important;
+color: #646464;
+}
+.af4d84db2775806ccfaeee4e65265828c .c490d492d177766393dd8d8b68b7df1ec *{
+color:#000000;
+}
+.ub4b77d503abd32a150e97a50a7591695 .card .card-header{
+cursor: pointer;
+padding: 1.75rem 2rem;
+color: #3f43fd;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-ms-grid-row-align: center;
+align-items: center;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: space-between;
+}
+a{
+text-decoration: none;
+}
+.ydd2468b2f341ef57f93c741e9e262e37 p,.ydd2468b2f341ef57f93c741e9e262e37 span,.ydd2468b2f341ef57f93c741e9e262e37 label{
+font-size:16px!important;
+}
+.btn-md{
+padding: 14.8px 29.8px;
+border-radius: 0;
+}
+.af4d84db2775806ccfaeee4e65265828c .a53c3d6ca562bdf12bc867c2045244d17 *{
+color:#000000;
+}
+.ydd2468b2f341ef57f93c741e9e262e37 *{
+color:#131313!important;
+}
+.x8f7528cd85ed9fb2e1cdd2e652b5ff44{
+background:#ffffff;
+color:#060606;
+}
+.a53c3d6ca562bdf12bc867c2045244d17{
+background:#eae8e4!important ;
+}
+.c490d492d177766393dd8d8b68b7df1ec *{
+color:#000000;
+}
+iframe{
+border: none!important;
+}
+.w1c1d06edb57fea69275148f357ba44de{
+font-weight: inherit;
+background-image: linear-gradient(120deg, #ffd466 0%, #ffc95b 100%);
+background-repeat: no-repeat;
+background-size: 100% 30%;
+background-position: 0 90%;
+transition: background-size 0.2s ease-in;
+}
+.x8f7528cd85ed9fb2e1cdd2e652b5ff44 p,.x8f7528cd85ed9fb2e1cdd2e652b5ff44 a,.x8f7528cd85ed9fb2e1cdd2e652b5ff44 span,.x8f7528cd85ed9fb2e1cdd2e652b5ff44 label{
+font-size:16px!important;
+}
+.af4d84db2775806ccfaeee4e65265828c .c490d492d177766393dd8d8b68b7df1ec{
+background:#eae8e4!important ;
+}
+.af4d84db2775806ccfaeee4e65265828c .f99cd1c350a4bcdfc77a2e4df39eb17b0{
+background:#eddad8!important;
+}
+html{
+scroll-behavior: smooth;
+}
+.b060298cfbe09972efe7f032e36bbd634{
+color: #4c4c4c;
+}
+.af4d84db2775806ccfaeee4e65265828c .row-item{
+padding: 3rem;
+padding-top: 3.7rem;
+height: 100%;
+}
+.ydd2468b2f341ef57f93c741e9e262e37 a{
+font-size:16px;
+}
+.w9ea9e35911bc914e049c33c3bc3d4957{
+background-color: #0a0a0a;
+font-size: 29.7px;
+height: 56.3px;
+min-width: 55.6px;
+padding: 0.7rem;
+padding-top: 12.7px;
+color: #fff !important;
+border: 1px solid #000000;
+border-radius: 50%;
+}
+.ub4b77d503abd32a150e97a50a7591695 .card .card-header span{
+font-size: 1.5rem;
+}
+.z4abec9e28b75f8b3d197bbc39c56eb24:hover{
+box-shadow: 0 50.5px 49.5px -25px rgb(0 0 0 / 30%);
+transform: rotate(-2deg) scale(1.03);
+}
+.ub4b77d503abd32a150e97a50a7591695 .card .card-body p:last-child{
+margin-bottom: 0;
+}
+.af4d84db2775806ccfaeee4e65265828c h4{
+font-size:24px!important;
+}
+.nav-link{
+color: #000000;
+
+}
+.y727d7417c442182910141bf2b1637e13{
+font-size: 2rem !important;
+}
+.a919f79a4582003444fe106ed977aa13b *{
+color: white !important;
+}
+footer{
+background:#0a0a0a;
+color:#ffffff;
+}
+body{
+color: #353535;
+}
+.navbar a{
+font-size: 17.5px!important;
+font-weight: bold;
+}
+.af4d84db2775806ccfaeee4e65265828c p,.{special_content1_class} a,.af4d84db2775806ccfaeee4e65265828c label{
+font-size:16px!important;
+}
+.x3c0d4da26c11ca49c4a014ed48fe2ad3{
+font-size: 45px!important;
+}
+.a53c3d6ca562bdf12bc867c2045244d17 a{
+color:#ff8117!important;
+}
+.af4d84db2775806ccfaeee4e65265828c .f99cd1c350a4bcdfc77a2e4df39eb17b0 *{
+color:#000000;
+}
+.ub4b77d503abd32a150e97a50a7591695{
+position: relative;
+z-index: 1;
+}
+.ub4b77d503abd32a150e97a50a7591695 .card{
+position: relative;
+z-index: 1;
+margin-bottom: 1.5rem;
+}
+.af4d84db2775806ccfaeee4e65265828c .row-item.z6af45a1a9d4ea3c15914a0a1bb2ec904{
+background: #d0cdcd;
+}
+.af4d84db2775806ccfaeee4e65265828c .a53c3d6ca562bdf12bc867c2045244d17{
+background:#bcd9df!important;
+}
+.navbar-toggler span{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid lightgrey;
+border-radius: 3px;
+}
+ </style>
+<style type="text/css"> 
+   .parallax-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 500px; /* Adjust as needed */
+    width: 100%;
+    overflow: hidden;
+
+    border-radius: 20px;
+}
+
+
+.parallax-content {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding:20px 40px;
+    margin: 50px auto; /* Creates space for parallax effect */
+    max-width: 80%;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+}
+.img-fluid{
+	max-height: 400px
+}
+@media only screen and (max-width:1000px) {
+.x3a8f18fb7625e871e1a87aa8fb97d644 img{
+position: initial!important;
+}
+
+.t52edf27f698ff26b2a4a1ffaa9fe2d52 {
+font-size: 20px;
+}
+.e88660120f4c9e9ece6f8574f5977f11e {
+font-size: 15px !important;
+}
+.x597f51776b5a20e61133fdd100773711{
+padding-bottom: 0px !important;
+}
+} 
+.content-image-below {
+    margin: 20px 0;
+    text-align: center;
+}
+.image-align-left ol,.image-align-left ul{
+  margin-left: 51%;
+}
+ 
+/* For background image */
+.content-with-bg-image {
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    position: relative;
+}
+
+.content-over-bg {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+}
+.content-image-below img,.content-with-side-images img,{
+	max-height: 500px!important;
+
+}
+ 
+ 
+
+/* Text container */
+.text-container {
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding: 0 1rem;
+}
+ 
+
+ /* Main content container */
+.content-with-side-images {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Headers should always be full width */
+.content-with-side-images h4 {
+    width: 100%;
+    clear: both;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+/* Regular paragraphs should be full width by default */
+.content-with-side-images p {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/* Image-text pair container */
+.image-text-pair {
+    width: 100%;
+    margin:  0px 0;
+   
+}
+
+/* Image container - floated */
+.image-container {
+    width: 50%;
+    
+    box-sizing: border-box;
+ 
+}
+.image-container img:hover{
+
+box-shadow: 0 49.6px 50.3px -25px rgb(0 0 0 / 30%);
+    transform: rotate(-2deg) scale(1.03);
+}
+.image-container img{
+transition: all 0.3s;
+}
+
+/* Left-aligned image */
+.image-align-left .image-container {
+    float: left;
+    margin-right: 20px;
+    margin-left: 0;
+    padding-right: 40px;
+}
+
+/* Right-aligned image */
+.image-align-right .image-container {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+
+    padding-left: 40px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+
+/* Clearfix */
+.clearfix {
+    clear: both;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .image-container {
+        width: 100%;
+        float: none !important;
+        margin: 0 0 20px 0 !important;
+        padding: 0;
+    }
+    
+    .text-flow {
+        display: block;
+    }
+} 
+  
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0px;
+    left: 100%;
+    margin-top: -16px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+  
+}
+
+/* Smart positioning for right-edge dropdowns */
+.dropdown-menu-right .dropdown-submenu>.dropdown-menu,
+.nav-item:last-child .dropdown-submenu>.dropdown-menu,
+.nav-item:nth-last-child(2) .dropdown-submenu>.dropdown-menu {
+    left: auto;
+    right: 100%;
+    margin-left: 0;
+    margin-right: -1px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+/* For left-positioned dropdowns, reverse the arrow */
+.dropdown-menu-right .dropdown-submenu>a:after,
+.nav-item:last-child .dropdown-submenu>a:after,
+.nav-item:nth-last-child(2) .dropdown-submenu>a:after {
+    float: left;
+    border-width: 5px 5px 5px 0;
+    border-left-color: transparent;
+    border-right-color: #ccc;
+    margin-left: -10px;
+    margin-right: 0;
+}
+
+.dropdown-menu-right .dropdown-submenu:hover>a:after,
+.nav-item:last-child .dropdown-submenu:hover>a:after,
+.nav-item:nth-last-child(2) .dropdown-submenu:hover>a:after {
+    border-right-color: #fff;
+    border-left-color: transparent;
+}
+ 
+
+.multi-column-dropdown .dropdown-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .multi-column-dropdown {
+      
+        width: 100%;
+    }
+    
+    .dropdown-submenu>.dropdown-menu {
+        position: static;
+        margin: 0;
+        border: none;
+        box-shadow: none;
+    }
+}
+
+/* Use hover only where it exists */
+@media (hover:hover) {
+  .dropdown-submenu:hover > .dropdown-menu { display:block; }
+}
+
+/* Nested dropdowns should show when .show is present (Bootstrap only sets this for top-level) */
+.dropdown-menu .dropdown-menu { display:none; }
+.dropdown-menu .dropdown-menu.show { display:block; }
+
+/* Mobile layout: stack submenus and remove weird offsets */
+@media (max-width: 991.98px) {
+  .dropdown-menu {
+    position: static;          /* keeps the menu within the flow so it won't render off-screen */
+    float: none;
+    margin: 0;
+    box-shadow: none;
+    border: 0;
+  }
+  .dropdown-submenu > .dropdown-menu {
+    margin-left: 0;
+    max-height: 60vh;          /* scroll if long */
+    overflow-y: auto;
+  }
+}
+
+</style>
+<script type='application/ld+json'> 
+{
+"@context": "http://www.schema.org",
+"@type": "LocalBusiness","url": "residential-cooling-load-design-a-sizing-a-equipment-primer.html",
+"address": {
+"@type": "PostalAddress"} }
+</script>
+<script type="application/ld+json">
+{
+"@type": "WebPage",
+"@context": "http://www.schema.org","lastReviewed": "2021-12-01",
+"mainContentOfPage": {
+"about": {"url": "manual-d-duct-design-basics-for-residential-cooling.html","name": "","description": "",
+"disambiguatingDescription": ""},
+"accessibilitySummary": ""},
+"keywords": [""],
+"award": ["Best "],
+"teaches": [""],
+"educationalUse": [""],
+"text": [""],
+"workExample": {
+"about": {"url": "manual-d-duct-design-basics-for-residential-cooling.html"
+}
+},
+"citation": {
+"@type": "CreativeWork",
+"about": {
+"url": "manual-d-duct-design-basics-for-residential-cooling.html"}
+},
+"hasPart":[
+]
+}
+</script> 
+</head>
+
+<body><nav class="navbar-expand-lg navbar">
+<a class="navbar-brand" href="residential-cooling-load-design-a-sizing-a-equipment-primer.html"  ></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon  fa fa-bars"></span></button><div class="navbar-collapse collapse" id="navbarSupportedContent">
+<ul class="navbar-nav align-items-center d-flex ml-auto">        
+            <!-- Show all double menus if within limit -->
+                                <li class="nav-item dropdown-hover dropdown">
+                <a class="nav-link dropdown-toggle td122135ab0dce2ccb91e7a0ad7b98055" href="javascript:;" id="navbarDropdown0" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Cooling Load Design Guides                </a>
+                <div class="  dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdown0">
+                                                                    <a class="dropdown-item" href="Residential-Cooling-Load-Design:-A-Sizing-&amp;-Equipment-Primer.html" >
+                            Residential Cooling Load Design: A Sizing &amp; Equipment Primer                        </a>
+                                                                    <a class="dropdown-item" href="manual-s-equipment-selection-after-the-load-calculation.html" >
+                            Manual S Equipment Selection After the Load Calculation                        </a>
+                                                                    <a class="dropdown-item" href="cooling-design-for-hot-humid-climate-zone-2a-homes.html" >
+                            Cooling Design for Hot-Humid Climate Zone 2A Homes                        </a>
+                                                                    <a class="dropdown-item" href="oversized-vs-undersized-ac-what-sizing-errors-cost.html" >
+                            Oversized vs Undersized AC: What Sizing Errors Cost                        </a>
+                                                                    <a class="dropdown-item" href="manual-d-duct-design-basics-for-residential-cooling.html" >
+                            Manual D Duct Design Basics for Residential Cooling                        </a>
+                                    </div>
+            </li>
+            
+    </ul>
+</div>
+</nav>
+   
+<div class="x597f51776b5a20e61133fdd100773711 container-fluid x3a8f18fb7625e871e1a87aa8fb97d644">
+<img  src="img/residential-ductwork-supply-trunk-construction-banner.jpg" width="100%" class="e782dcd8ad8472a5c5c4f0baf5675b677" alt="Manual D Duct Design Basics for Residential Cooling" title="Manual D Duct Design Basics for Residential Cooling ">
+</div><div class=" container-fluid"><div class="container pt-5 pb-5">
+<div class="row">
+<div class="pt-5 col-lg-12 pb-5 text-center" id="">
+<h1 class="mb-0 t52edf27f698ff26b2a4a1ffaa9fe2d52">Manual D Duct Design Basics for Residential Cooling</h1></div><div class="col-lg-12 m-auto ">
+<div class="content">
+
+<div class="content-with-side-images"> <div style="font-size:18px;line-height:1.6;"> <p><em>By the Editorial Team | Published: August 2026 | Last Updated: August 2026</em></p> <h2>Why Duct Design Belongs in the Same Conversation as Load Calculation</h2> <p>Duct design is the third of the three ACCA manuals that anchor residential cooling design. Manual J produces the loads. Manual S selects equipment sized to those loads. Manual D sizes the duct system that actually delivers the equipment capacity to the rooms that need it. Skipping Manual D is a common cause of installations where the right equipment was picked but rooms still miss setpoint, because the airflow arrives unevenly or the blower fights static pressure it was not rated for.</p> <p>The Manual D procedure takes the per-room loads from the Manual J run, converts them to per-room cubic feet per minute of required airflow, and then sizes trunks, branches, and diffusers so that airflow arrives at each room within the equipment rated external static pressure. It is a design activity, not a rule of thumb. Rules like eight-inch trunk with six-inch branches produce duct systems that occasionally work by luck and frequently do not.</p> <h2>The Airflow Conversion</h2> <p>Airflow requirement per room is derived from the room sensible load and the temperature difference between the supply air and the room air. The standard formula is CFM equals sensible Btu per hour divided by (1.08 times the design temperature rise), where 1.08 is the standard air constant at typical conditions. A room with a 4,320 Btu/hr sensible load and a 20-degree design rise needs 200 CFM of conditioned air.</p> <p>Once each room CFM requirement is set, the trunk carries the sum of all downstream branch requirements. Every fitting, elbow, boot, and diffuser adds pressure loss, expressed in equivalent length of straight duct. Manual D tallies those equivalent lengths across the design longest and shortest paths, checks that the friction rate lands in the target range (typically 0.08 to 0.10 inches of water column per 100 feet), and adjusts sizes accordingly.</p> <h2>External Static Pressure and Why It Governs Everything</h2> <p>Every air handler and furnace is rated for a maximum external static pressure, typically 0.5 inches of water column for residential equipment. That number is the total pressure the blower can overcome across the entire duct system, from the return grille to the supply diffuser. If the installed duct system exceeds 0.5 inches, the blower cannot deliver its rated airflow, and every downstream calculation (including the Manual S equipment selection) becomes invalid.</p> <div class="content-image-below"><img class="img-fluid" src="img/hvac-service-tools-flat-lay-gauges-manometer-multimeter.jpg" /></div> <p>The static pressure budget divides across the components:</p> <ul> <li>Return path (grille, filter, return trunk): typically 0.15 to 0.20 inches of water column.</li> <li>Coil and cabinet: 0.15 to 0.25 inches, taken from manufacturer data at design airflow.</li> <li>Supply trunk, branches, and diffusers: whatever remains from the 0.5-inch budget, typically 0.10 to 0.20 inches.</li> </ul> <p>The single most common cause of over-static installations is an undersized return path. A one-inch pleated filter in a small return grille can pull 0.25 inches by itself, which leaves almost no budget for the supply side and forces the blower into deratable operation. Manual D catches this on paper before the ductboard gets cut.</p> <h2>Friction Rate and Duct Sizing</h2> <p>Friction rate is the design target for how much static pressure the duct system is allowed to lose per 100 feet of equivalent length. The rate is calculated by dividing the available static (after coil, cabinet, and return budget) by the total equivalent length of the longest supply run, then multiplying by 100. A typical residential system lands at 0.08 to 0.10 inches per 100 feet.</p> <p>Once the friction rate is set, duct sizes are read from an ACCA ductulator or the ductwork sizing table in Manual D. Higher friction rates permit smaller ducts (more restrictive), lower friction rates require larger ducts. The trade-off is between duct cost and blower energy: undersized ducts save material but increase fan energy use and noise, while oversized ducts cost more but run quieter and give the blower headroom.</p> <h2>Duct Leakage and Its Effect on Delivered Capacity</h2> <p>Ductwork leakage is measured in cubic feet per minute at a reference pressure (25 pascals for total leakage, or CFM25). The 2021 IECC caps total duct leakage at 4 CFM25 per 100 square feet of conditioned floor area when the ducts are in unconditioned space. Systems built without leakage testing frequently exceed twice that number.</p> <p>Duct leakage translates directly into lost capacity, and in unconditioned attics it also imports moisture through return leakage on the suction side. The Manual D design assumes a leakage rate; if the installed system leaks more, the delivered capacity drops, room airflows underperform, and the equipment appears undersized even though the load calculation and selection were correct.</p> <div class="content-image-below"><img class="img-fluid" src="img/residential-mechanical-room-air-handler-and-plenum.jpg" /></div> <p> </p> <p>The high-leverage sealing points on a residential duct system, ranked by typical contribution to total leakage:</p> <ul> <li>Boot-to-drywall connections at every supply register and return grille.</li> <li>Trunk-to-plenum joints, especially at the air handler cabinet.</li> <li>Branch takeoffs where flex duct connects to metal trunks.</li> <li>Return-side platform returns and stud-cavity returns (avoid entirely when possible).</li> <li>Filter rack seams and access-panel gaskets on the air handler.</li> </ul> <h3>Friction Rate Ranges by System Type</h3> <table border="1" cellpadding="8" style="border-collapse:collapse;margin:4px 0;width:100%;"> <tbody> <tr> <th>System type</th> <th>Typical friction rate (in. w.c. per 100 ft)</th> <th>Notes</th> </tr> <tr> <td>Standard residential, sheet metal</td> <td>0.08 to 0.10</td> <td>Baseline; used in most single-family design</td> </tr> <tr> <td>Flex duct branches</td> <td>0.05 to 0.08</td> <td>Lower; flex has higher inherent friction, size up</td> </tr> <tr> <td>High-static equipment (ECM blowers)</td> <td>0.10 to 0.12</td> <td>Slightly higher permitted; still watch static budget</td> </tr> <tr> <td>Retrofit into existing plenum</td> <td>0.05 to 0.08</td> <td>Constrained; may require duct redesign, not just resizing</td> </tr> </tbody> </table> <h2>Frequently Asked Questions</h2> <h3>Is Manual D required if Manual J and Manual S are done?</h3> <p>Manual D is referenced by the International Residential Code alongside Manual J and Manual S as the accepted procedure for duct design. Skipping it while doing J and S produces a system with correct equipment tonnage and incorrect airflow distribution, which is one of the most common patterns in the AC works but this room is always warm complaints. All three manuals are required to produce a design that performs as calculated.</p> <h3>Can flex duct be used throughout or should trunks be sheet metal?</h3> <p>Flex duct is acceptable for branch runs when installed straight, supported at manufacturer-recommended intervals, and sized for its higher inherent friction (typically one duct size larger than the equivalent metal branch). Long trunk runs in flex are difficult to install without sag and bend penalties that inflate the friction rate. Best practice on modern residential design is metal trunks with flex branches, sized per Manual D, not by convention.</p> <h3>What is the practical difference between a Manual D design and a rule-of-thumb duct layout?</h3> <p>A Manual D design starts from per-room loads and produces a duct layout that delivers the required airflow to each room within a specified friction rate. A rule-of-thumb layout uses standard sizes (an eight-inch trunk with six-inch branches, for example) regardless of load or run length. The results diverge sharply in houses with long branches, multiple stories, or asymmetric room loads, which is most modern residential construction.</p> <h3>How is static pressure measured after installation?</h3> <p>External static pressure is measured with a manometer (analog or digital) reading pressure differences across the air handler. The technician drills small test ports on the supply and return sides of the coil and cabinet, records the readings during equipment operation, and compares the total against the manufacturer rated maximum. Static above rated is a red flag for a duct system that cannot deliver design airflow. TrueFlow plates and similar tools also measure airflow directly at the air handler.</p> <div class="image-text-pair image-align-right"> <div class="image-container"><img alt="" class="img-fluid" src="img/residential-hvac-duct-trunk-branch-schematic.jpg" /></div> <div class="text-flow"> <h3>Why do so many installed systems have static-pressure problems?</h3> <p>Installed systems trend toward over-static because return sides are frequently under-designed. A single return grille sized for aesthetics or drywall convenience rarely provides the throat area needed for the required CFM. Filter racks add pressure that is invisible until measured. Manual D flags both issues at design time, but only if it is actually run.</p> </div> </div> <h3>Does an ECM blower solve a static-pressure problem?</h3> <p>Electronically commutated motor (ECM) blowers can compensate for higher static than a permanent split capacitor (PSC) blower, holding rated airflow up to a higher pressure ceiling. That masks the underlying duct problem rather than solving it: the blower runs at higher watts, noise increases, and delivered capacity still drops if the duct system leaks or has poor branch balance. The correct fix is a properly designed duct system with the ECM blower operating well within its curve.</p> <h3>How does duct leakage testing work?</h3> <p>Duct leakage testing seals every register and return with removable tape or plates, connects a calibrated fan to the duct system through the air handler cabinet, and pressurizes the system to a reference pressure (typically 25 pascals). The fan calibrated airflow at that pressure equals the total leakage rate in CFM25. The 2021 IECC and most state adoptions require this test on all new-construction residential systems and set the pass threshold at 4 CFM25 per 100 square feet.</p> <h3>Should ducts always be brought into conditioned space?</h3> <p>Ducts in conditioned space perform measurably better than ducts in unconditioned attics or crawls, because they avoid both conduction losses to the extreme ambient and moisture penalties from leakage. On new construction, sealed attics or drop soffits routinely bring the duct system into conditioned space at modest incremental cost. On retrofits, the change is more expensive and often only makes financial sense during a major remodel. When ducts stay in an unconditioned attic, tight sealing and R-8 insulation are the minimum interventions.</p> </div> </div> <p><a href="./residential-cooling-load-design-a-primer.html">Residential Cooling Load Design: A Sizing and Equipment Primer</a></p> <p><a class="uded2229f57b0816b2ea1e4f1c8cb84bc" href="residential-cooling-load-design-a-sizing-a-equipment-primer.html">Residential Cooling Load Design: A Sizing a Equipment Primer</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><footer>
+<div class="pt-5 py-4 container" >
+<div class="row"><div class="col-lg-3"><p><a class="td122135ab0dce2ccb91e7a0ad7b98055" href="sitemap.html" rel="nofollow">Sitemap</a></p>
+</p>
+</div></div>
+</div>
+</footer>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+var dropdowns = document.querySelectorAll('.dropdown-hover');
+function showDropdown() {
+var dropdownMenu = this.querySelector('.dropdown-menu');
+dropdownMenu.style.display = 'block';
+}
+function hideDropdown() {
+var dropdownMenu = this.querySelector('.dropdown-menu');
+dropdownMenu.style.display = 'none';
+}
+function handleClick(event) {
+var target = event.target;
+window.location.href = target.getAttribute('href');
+}
+dropdowns.forEach(function(dropdown) {
+dropdown.addEventListener('mouseenter', showDropdown);
+dropdown.addEventListener('mouseleave', hideDropdown);
+var dropdownMenu = dropdown.querySelector('.dropdown-toggle');
+dropdownMenu.addEventListener('click', handleClick);
+});
+});
+</script>
+ <script>
+(function() {
+  // Works with both BS4 (data-toggle events) and BS5
+  var $ = window.jQuery;
+
+  // Toggle nested submenu on click/tap
+  $(document).on('click', '.dropdown-submenu > a', function(e) {
+    var $toggle = $(this);
+    var $submenu = $toggle.next('.dropdown-menu');
+
+    // If there isn't a submenu, behave like a normal link
+    if (!$submenu.length) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    // Close sibling submenus at the same level
+    $toggle.parent('.dropdown-submenu')
+      .siblings('.dropdown-submenu')
+      .find('>.dropdown-menu.show')
+      .removeClass('show');
+
+    // Toggle this submenu
+    $submenu.toggleClass('show');
+
+    // Keep parent dropdown open
+    $toggle.closest('.dropdown-menu').addClass('show');
+
+    // Accessibility state
+    $toggle.attr('aria-expanded', $submenu.hasClass('show') ? 'true' : 'false');
+  });
+
+  // When the top-level dropdown closes, close all nested submenus
+  $(document).on('hidden.bs.dropdown', '.dropdown', function() {
+    $(this).find('.dropdown-menu.show').removeClass('show');
+  });
+})();
+</script>
+</body>
+</html>
