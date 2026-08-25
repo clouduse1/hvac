@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset
+          xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+     <url>
+                 <loc>news.html</loc>
+                 <lastmod>2026-08-25T00:41:05+00:00</lastmod>
+                 <priority>0.80</priority>
+               </url> <url>
+                 <loc>residential-cooling-load-design-a-sizing-a-equipment-primer.html</loc>
+                 <lastmod>2026-08-25T00:41:05+00:00</lastmod>
+                 <priority>0.80</priority>
+               </url> <url>
+                 <loc>manual-s-equipment-selection-after-the-load-calculation.html</loc>
+                 <lastmod>2026-08-25T00:41:05+00:00</lastmod>
+                 <priority>0.80</priority>
+               </url> <url>
+                 <loc>cooling-design-for-hot-humid-climate-zone-2a-homes.html</loc>
+                 <lastmod>2026-08-25T00:41:05+00:00</lastmod>
+                 <priority>0.80</priority>
+               </url> <url>
+                 <loc>oversized-vs-undersized-ac-what-sizing-errors-cost.html</loc>
+                 <lastmod>2026-08-25T00:41:05+00:00</lastmod>
+                 <priority>0.80</priority>
+               </url> <url>
+                 <loc>manual-d-duct-design-basics-for-residential-cooling.html</loc>
+                 <lastmod>2026-08-25T00:41:05+00:00</lastmod>
+                 <priority>0.80</priority>
+               </url> <url>
+                 <loc>sitemap.html</loc>
+                 <lastmod>2026-08-25T00:41:05+00:00</lastmod>
+                 <priority>0.80</priority>
+               </url> <url>
+                 <loc>sitemap.xml</loc>
+                 <lastmod>2026-08-25T00:41:05+00:00</lastmod>
+                 <priority>0.80</priority>
+               </url> <url>
+                 <loc>feed.xml</loc>
+                 <lastmod>2026-08-25T00:41:05+00:00</lastmod>
+                 <priority>0.80</priority>
+               </url></urlset>
